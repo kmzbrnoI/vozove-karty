@@ -1,0 +1,110 @@
+/* Css k vozovym kartam */
+/* Vytvoril Jan Horacek 2014 */
+/* v 22.8.2014 */
+
+/* Vozove karty formatu "Horky" */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 75%;
+}
+
+/* 1 vozova karta = 1 tabulka */
+table.karta {
+    float: left;
+    width: 55mm;
+    height: 87mm;
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+
+table.karta tr, td {
+	border: 1px solid black;
+}
+
+/* Hlavicky jednotlivych sekci */
+table.karta tr:nth-child(1) td,
+table.karta tr:nth-child(4) td,
+table.karta tr:nth-child(6) td,
+table.karta tr:nth-child(8) td {
+    border-top: 2px solid black;
+ 	text-align: center;
+	font-size: 70%;
+	height: 10px;
+}
+
+/* ==== Podbarvovani prvnich 3 radku ==== */
+table.karta.E tr:nth-child(1), table.karta.E tr:nth-child(2), table.karta.E tr:nth-child(3) { background-color: rgb(252, 154, 204); } /* otevreny vuz bezne stavby */
+table.karta.G tr:nth-child(1), table.karta.G tr:nth-child(2), table.karta.G tr:nth-child(3) { background-color: rgb(252, 254, 156); } /* kryty vuz bezne stavby */
+table.karta.Z tr:nth-child(1), table.karta.Z tr:nth-child(2), table.karta.Z tr:nth-child(3) { background-color: rgb(196, 194, 196); } /* cisternovy (kotlovy) vuz */
+table.karta.R tr:nth-child(1), table.karta.R tr:nth-child(2), table.karta.R tr:nth-child(3) { background-color: rgb( 52, 154, 100); } /* plosiovy vuz podvozkovy bezne nebo zvlastni stavby */
+table.karta.U tr:nth-child(1), table.karta.U tr:nth-child(2), table.karta.U tr:nth-child(3) { background-color: rgb(196, 194, 196); } /* specialni vuz */
+table.karta.D tr:nth-child(1), table.karta.D tr:nth-child(2), table.karta.D tr:nth-child(3) { background-color: rgb(156,  50,   4);   /* sluzebni vuz, vuz pracovniho vlaku */
+                                                                                              color: white; }
+table.karta.o tr:nth-child(1), table.karta.o tr:nth-child(2), table.karta.o tr:nth-child(3) { background-color: rgb(  4, 130,   4); } /* osobni vuz */
+table.karta.h tr:nth-child(1), table.karta.h tr:nth-child(2), table.karta.h tr:nth-child(3) { background-color: rgb(252,   2,   4); } /* hnaci vozidlo */
+
+/* ===== Podbarvena hlavicka ===== */
+table.karta tr:nth-child(2) td,
+table.karta tr:nth-child(3) td {
+    text-align: center;
+    width: 33.3%;
+}
+
+table.karta tr:nth-child(2) {
+    font-size: 70%;
+    height: 10px;
+}
+
+table.karta tr:nth-child(3) td {
+    font-size: 200%;
+    font-weight: bold;
+    height: 30px;
+    width: 10px;
+}
+
+/* Bezne texty */
+table.karta tr:nth-child(5) td,
+table.karta tr:nth-child(7) td {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+table.karta tr:nth-child(5) td { height: 30px; }
+table.karta tr:nth-child(7) td { height: 45px; }
+
+/* Bunka obrazku */
+table.karta tr:nth-child(9) td {
+/*    height: 28mm; */
+    border-bottom: none;
+    text-align: center;
+    vertical-align: top;
+}
+
+/* Samotny obrazek */
+table.karta img {
+    max-width: 53mm;
+    max-height: 18mm;
+    padding-top: 4px;
+
+}
+
+/* Text u obrazku */
+table.karta tr:nth-child(10) td {
+    border-top: 1px solid white;
+    vertical-align: bottom;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 0px;
+}
+
+/* Majitel */
+table.karta tr:nth-child(11) td {
+    text-indent: 5px;
+    padding: 2px;
+    height: 20px;
+}
