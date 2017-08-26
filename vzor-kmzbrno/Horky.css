@@ -40,7 +40,7 @@ table.karta tr:nth-child(8) td {
 table.karta.E tr:nth-child(1), table.karta.E tr:nth-child(2), table.karta.E tr:nth-child(3) { background-color: rgb(252, 154, 204); } /* otevreny vuz bezne stavby */
 table.karta.G tr:nth-child(1), table.karta.G tr:nth-child(2), table.karta.G tr:nth-child(3) { background-color: rgb(252, 254, 156); } /* kryty vuz bezne stavby */
 table.karta.Z tr:nth-child(1), table.karta.Z tr:nth-child(2), table.karta.Z tr:nth-child(3) { background-color: rgb(196, 194, 196); } /* cisternovy (kotlovy) vuz */
-table.karta.R tr:nth-child(1), table.karta.R tr:nth-child(2), table.karta.R tr:nth-child(3) { background-color: rgb( 52, 154, 100); } /* plosiovy vuz podvozkovy bezne nebo zvlastni stavby */
+table.karta.R tr:nth-child(1), table.karta.R tr:nth-child(2), table.karta.R tr:nth-child(3) { background-color: rgb(142, 224, 160); } /* plosiovy vuz podvozkovy bezne nebo zvlastni stavby */
 table.karta.U tr:nth-child(1), table.karta.U tr:nth-child(2), table.karta.U tr:nth-child(3) { background-color: rgb(196, 194, 196); } /* specialni vuz */
 table.karta.L tr:nth-child(1), table.karta.L tr:nth-child(2), table.karta.L tr:nth-child(3) { background-color: rgb(250, 180, 150); } /* chladici vuz */
 table.karta.D tr:nth-child(1), table.karta.D tr:nth-child(2), table.karta.D tr:nth-child(3) { background-color: rgb(156,  50,   4);   /* sluzebni vuz, vuz pracovniho vlaku */
