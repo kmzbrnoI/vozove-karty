@@ -21,9 +21,9 @@ v [KMŽ Brno I](http://kmz-brno.cz/).
 ## Vozové karty dle šablony KMŽ Brno I
 
 Vozové karty se generují jako webová stránka php skriptem
-[vozove-karty/index.php](blob/master/vzor-kmzbrno/index.php).
+[vozove-karty/index.php](vzor-kmzbrno/index.php).
 
 Karty se berou z SQL databáze, vzorová data víz
-[příklad](blob/master/vzor-kmzbrno/vk_Horky14.sql).
+[příklad](vzor-kmzbrno/vk_Horky14.sql).
 
 Osvědčilo se nám tisknout karty přímo z webového prohlížeče.
