@@ -27,3 +27,6 @@ Karty se berou z SQL databáze, pro vzorová data viz
 [příklad](vzor-kmzbrno/vk_Horky14.sql).
 
 Osvědčilo se nám tisknout karty přímo z webového prohlížeče.
+
+Příklad vozových karet bývá k dispozici na této url:
+[http://apophis.cz/files/kmz/vozove-karty/vzor-kmzbrno/](http://apophis.cz/files/kmz/vozove-karty/vzor-kmzbrno/).
