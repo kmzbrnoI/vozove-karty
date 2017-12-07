@@ -10,7 +10,7 @@ v [KMŽ Brno I](http://kmz-brno.cz/).
 
  * `foto`
    Obsahuje fotografie modelů.
- * `lokomotivní`
+ * `lokomotivni`
    Obsahuje lokomotivní karty založené šabloně [KMŽ
    Hôrky](http://kmzhorky.railnet.sk/).
  * `resources`
