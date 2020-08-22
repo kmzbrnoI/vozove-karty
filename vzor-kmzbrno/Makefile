@@ -1,7 +1,10 @@
-all: cars.html
+HTMLS=cars.html example.html
+FOTOS=$(wildcard foto/*)
 
-%.html: %.csv generate.py
+all: $(HTMLS)
+
+%.html: %.csv generate.py $(FOTOS)
 	./generate.py -c $< -o $@
 
 clean:
-	rm cars.html
+	rm $(HTMLS)
