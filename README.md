@@ -11,7 +11,7 @@ v [KMŽ Brno I](http://kmz-brno.cz/).
  * `foto`
    Obsahuje fotografie modelů.
  * `lokomotivni`
-   Obsahuje lokomotivní karty založené šabloně [KMŽ
+   Obsahuje lokomotivní karty založené na šabloně [KMŽ
    Hôrky](http://kmzhorky.railnet.sk/).
  * `resources`
    Obsahuje podkladové materiály ke kartám.
@@ -20,11 +20,15 @@ v [KMŽ Brno I](http://kmz-brno.cz/).
 
 ## Vozové karty dle šablony KMŽ Brno I
 
-Vozové karty se generují jako webová stránka php skriptem
-[vozove-karty/index.php](vzor-kmzbrno/index.php).
+Vozové karty se generují jako webová stránka python skriptem
+<vzor-kmzbrno/generate.py>.
 
-Karty se berou z SQL databáze, pro vzorová data viz
-[příklad](vzor-kmzbrno/vk_Horky14.sql).
+```bash
+cd vzor-kmzbrno
+make example.html
+```
+
+Karty se sestavují z csv souboru, viz <vzor-kmzbrno/example.csv>.
 
 Osvědčilo se nám tisknout karty přímo z webového prohlížeče.
 
