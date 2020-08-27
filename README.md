@@ -21,14 +21,15 @@ v [KMŽ Brno I](http://kmz-brno.cz/).
 ## Vozové karty dle šablony KMŽ Brno I
 
 Vozové karty se generují jako webová stránka python skriptem
-<vzor-kmzbrno/generate.py>.
+[vzor-kmzbrno/generate.py](vzor-kmzbrno/generate.py).
 
 ```bash
 cd vzor-kmzbrno
 make example.html
 ```
 
-Karty se sestavují z csv souboru, viz <vzor-kmzbrno/example.csv>.
+Karty se sestavují z csv souboru, viz
+[vzor-kmzbrno/example.csv](vzor-kmzbrno/example.csv).
 
 Osvědčilo se nám tisknout karty přímo z webového prohlížeče.
 
