@@ -32,6 +32,3 @@ Karty se sestavují z csv souboru, viz
 [vzor-kmzbrno/example.csv](vzor-kmzbrno/example.csv).
 
 Osvědčilo se nám tisknout karty přímo z webového prohlížeče.
-
-Příklad vozových karet bývá k dispozici na této url:
-[http://apophis.cz/files/kmz/vozove-karty/vzor-kmzbrno/](http://apophis.cz/files/kmz/vozove-karty/vzor-kmzbrno/).
