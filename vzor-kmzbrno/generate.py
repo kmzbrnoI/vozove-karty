@@ -1,5 +1,19 @@
 #!/usr/bin/env python3
 
+"""
+Generate car cards
+
+Usage:
+    generate.py [-c cars.csv] [-o cars.html] [-t template_dir]
+
+Options:
+    -c filename.csv     Take input from filename.csv. If -c is not present,
+                        input is read from stdin.
+    -o filename.html    Produce output to filename.html. If -o is not present,
+                        html output is written to stdout.
+    -t template_dir     Specify directory with templates. Default: 'templates'.
+"""
+
 from typing import List
 import csv
 import sys
