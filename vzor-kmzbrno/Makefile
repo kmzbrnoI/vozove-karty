@@ -8,3 +8,5 @@ all: $(HTMLS)
 
 clean:
 	rm $(HTMLS)
+
+.PHONY: all clean
